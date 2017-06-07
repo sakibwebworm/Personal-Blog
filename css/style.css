@@ -17,7 +17,7 @@ body{background: url('../img/background.jpeg') no-repeat center center fixed;
 .leftcol{padding: 2em;background: rgba(255,255,255,0.9);}
 .leftcol img{border-radius: 48px;}
   .leftcol p{}
-.leftcol *{    margin-bottom: 3em;}
+.leftcol *{ }
 
 
 /* right column */
@@ -51,8 +51,8 @@ body{background: url('../img/background.jpeg') no-repeat center center fixed;
       /*footer css*/
       .footercss{    margin-top: 60px;
     padding: 20px 0;
-    background: rgba(39,48,57,.95);
-    color: rgba(255,255,255,.9);
+    background: rgba(255,255,255,0.9);
+    ;
     font-weight: 300;
     font-size: 15px;
     letter-spacing: 0.035em;
