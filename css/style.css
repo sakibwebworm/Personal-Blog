@@ -5,24 +5,31 @@ body{background: url('../img/background.jpeg') no-repeat center center fixed;
   background-size: cover;}
 *{font-family: 'Montserrat', sans-serif;}
 .containercss{padding:3em 0em}
-.navbarcss{    background-color: #f7f7f7;}
+.navbarcss{    background-color: #f7f7f7;background-color: #f7f7f7;
+    padding-bottom: 38px;}
 .headercss{background-color: #f7f7f7;background: no-repeat #fff fixed;
     background-size: 100% auto;}
     .dt-logo {
     text-align: center;
     padding: 50px 0;
 }
+.navbar-brand{display: none}
+.img-fluid{height:auto;max-width:100%}
 /* Left column */
 
-.leftcol{padding: 2em;background: rgba(255,255,255,0.9);}
+.leftcol{    padding: 2em;
+    background: rgba(255,255,255,0.9);
+    margin-bottom: 3em;}
 .leftcol img{border-radius: 48px;}
   .leftcol p{}
 .leftcol *{ }
 
 
 /* right column */
-
-.blogArea{background: rgba(255,255,255,0.9);
+.rightcol{    padding: 2em;
+    background: rgba(255,255,255,0.9);
+    margin-bottom: 3em;}
+.blogArea{
     padding: 2em;
     text-align: center;}
 .blogArea individualPost{}
@@ -57,3 +64,12 @@ body{background: url('../img/background.jpeg') no-repeat center center fixed;
     font-size: 15px;
     letter-spacing: 0.035em;
     text-align: center;}
+    .col-lg-offset-1 {
+    margin-left: 8.33333333%;
+}
+/* responsive issues */
+@media only screen and (min-width:220px) and (max-width:720px){
+  .navbarcss {
+    padding-bottom: 38px;
+}
+}
