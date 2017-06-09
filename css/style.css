@@ -20,10 +20,11 @@ body{background: url('../img/background.jpeg') no-repeat center center fixed;
 .leftcol{    padding: 2em;
     background: rgba(255,255,255,0.9);
     margin-bottom: 3em;}
-.leftcol img{border-radius: 48px;}
+.leftcol img{border-radius: 48px;margin: 3em 0em 3em 0em;}
+.personal-info{margin-bottom: 3em;}
   .leftcol p{}
 .leftcol *{ }
-
+.sidebarcss{position:relative;}
 
 /* right column */
 .rightcol{    padding: 2em;
