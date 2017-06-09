@@ -1,76 +1,121 @@
-body{background: url('../img/background.jpeg') no-repeat center center fixed;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;}
-*{font-family: 'Montserrat', sans-serif;}
-.containercss{padding:3em 0em}
-.navbarcss{    background-color: #f7f7f7;background-color: #f7f7f7;
-    padding-bottom: 38px;}
-.headercss{background-color: #f7f7f7;background: no-repeat #fff fixed;
-    background-size: 100% auto;}
-    .dt-logo {
+/*Header,Navbar and other parent*/
+body {
+    background: url('../img/background.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.containercss {
+    padding: 3em 0em
+}
+.navbarcss {
+    background-color: #f7f7f7;
+    background-color: #f7f7f7;
+}
+.headercss {
+    background-color: #f7f7f7;
+    background: no-repeat #fff fixed;
+    background-size: 100% auto;
+}
+.dt-logo {
     text-align: center;
     padding: 50px 0;
 }
-.navbar-brand{display: none}
-.img-fluid{height:auto;max-width:100%}
+.navbar-brand {
+    display: none
+}
+.img-fluid {
+    height: auto;
+    max-width: 100%
+}
 /* Left column */
 
-.leftcol{    padding: 2em;
-    background: rgba(255,255,255,0.9);
-    margin-bottom: 3em;}
-.leftcol img{border-radius: 48px;margin: 3em 0em 3em 0em;}
-.personal-info{margin-bottom: 3em;}
-  .leftcol p{}
-.leftcol *{ }
-.sidebarcss{position:relative;}
-
-/* right column */
-.rightcol{    padding: 2em;
-    background: rgba(255,255,255,0.9);
-    margin-bottom: 3em;}
-.blogArea{
+.leftcol {
     padding: 2em;
-    text-align: center;}
-.blogArea individualPost{}
-.blogArea article{}
-  .blogArea h1{font-weight: 600;
-    font-style: normal;font-size:3rem}
-    .blogArea img{}
-      .blogArea p{font-weight: 400;
-    font-style: normal;}
-      .blogArea *{margin:1em 0em;}
-.readmore{display: inline-block;
+    background: rgba(255, 255, 255, 0.9);
+    margin-bottom: 3em;
+}
+.leftcol img {
+    border-radius: 48px;
+    margin: 3em 0em 3em 0em;
+}
+.personal-info {
+    margin-bottom: 3em;
+}
+.leftcol p {} .leftcol * {} .sidebarcss {
+    position: relative;
+}
+/* right column */
+
+.rightcol {
+    padding: 2em;
+    background: rgba(255, 255, 255, 0.9);
+    margin-bottom: 3em;
+}
+.blogArea {
+    padding: 2em;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+}
+.blogArea individualPost {} .blogArea article {} .blogArea h1 {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3rem
+}
+.blogArea img {} .blogArea p {
+    font-weight: 400;
+    font-style: normal;
+}
+.blogArea * {
+    margin: 1em 0em;
+}
+.readmore {
+    display: inline-block;
     padding: 12px 30px 10px;
-    border: 2px solid rgba(39,48,57,.25);
-    color: rgba(39,48,57,.6);
+    border: 2px solid rgba(39, 48, 57, .25);
+    color: rgba(39, 48, 57, .6);
     font-weight: 500;
     border-radius: 30px;
     text-transform: uppercase;
-    text-decoration: none;}
-    .readmore:hover{   color: white;
+    text-decoration: none;
+}
+.readmore:hover {
+    color: white;
     text-decoration: none;
     background: black;
-    transition: .6s;letter-spacing: .1em;-webkit-transition: all .35s ease;
+    transition: .6s;
+    letter-spacing: .1em;
+    -webkit-transition: all .35s ease;
     -moz-transition: all .35s ease;
     -o-transition: all .35s ease;
-    transition: all .35s ease;}
-      /*footer css*/
-      .footercss{    margin-top: 60px;
+    transition: all .35s ease;
+}
+/*footer css*/
+
+.footercss {
+    margin-top: 60px;
     padding: 20px 0;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255, 255, 255, 0.9);
     ;
     font-weight: 300;
     font-size: 15px;
     letter-spacing: 0.035em;
-    text-align: center;}
-    .col-lg-offset-1 {
+    text-align: center;
+}
+.col-lg-offset-1 {
     margin-left: 8.33333333%;
 }
 /* responsive issues */
-@media only screen and (min-width:220px) and (max-width:720px){
-  .navbarcss {
-    padding-bottom: 38px;
-}
+
+@media only screen and (min-width: 220px) and (max-width: 720px) {
+    .navbarcss {
+        padding-bottom: 38px;
+    }
+    .col-lg-offset-1 {
+        margin-left: 0em
+    }
 }
